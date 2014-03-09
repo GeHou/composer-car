@@ -257,7 +257,9 @@ now，点击 **Check**，如果一切顺利，会返回项目的名称，确认�
 
     composer install
 
-安装完后扫一眼src/Ford/Fiesta目录看下是否只有2013款的Fiesta，然后暂时就不需要理会此目录下的内容了，让我们回到composer-car目录。
+安装完后扫一眼test-auto-update/src/Ford/Fiesta目录看下是否只有2013款的Fiesta，然后暂时就不需要理会此目录下的内容了，让我们回到composer-car目录。
+
+注：这时test-auto-update/vendor下面的hou/composer-car对应建立项目时的(<vendor>/<name>) [hou/composer-car]。
 
 听说2014款的嘉年华出了，赶紧追加新的车款吧：
 
@@ -320,9 +322,11 @@ ok，再次提交代码：
 
 至此更新操作也被证实是OK了，同志赶紧自己动手试试吧。
 
-参考资料：
+#### 参考资料
 
 中文文档  <http://composer.golaravel.com/>
+
 PSR-4规范  <https://github.com/php-fig/fig-standards/blob/master/proposed/psr-4-autoloader/psr-4-autoloader.md>
-本文示例 <https://github.com/GeHou/composer-car>  
+
+本文示例 <https://github.com/GeHou/composer-car>
 
