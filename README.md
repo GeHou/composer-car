@@ -328,5 +328,9 @@ ok，再次提交代码：
 
 PSR-4规范  <https://github.com/php-fig/fig-standards/blob/master/proposed/psr-4-autoloader/psr-4-autoloader.md>
 
-本文示例 <https://github.com/GeHou/composer-car>
+本文示例
+
+<https://github.com/GeHou/composer-car>
+
+<https://packagist.org/packages/hou/composer-car>
 
