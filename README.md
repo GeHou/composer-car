@@ -58,17 +58,18 @@
                 "email": "***@gmail.com"
             }
         ],
-        "minimum-stability": "dev”,
+        "minimum-stability": "dev",
         "require": {
             "php": ">=5.3.0"
         },
         "autoload": {
-            "Ford\\Escape\\": "src/Ford/Escape",
-            "Ford\\Fusion\\": "src/Ford/Fusion",
-            "Ford\\Focus\\": "src/Ford/Focus",
-            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+            "psr-4": {
+                "Ford\\Escape\\": "src/Ford/Escape",
+                "Ford\\Fusion\\": "src/Ford/Fusion",
+                "Ford\\Focus\\": "src/Ford/Focus",
+                "Ford\\Fiesta\\": "src/Ford/Fiesta"
             }
-        }   
+        }	
     }
 
 细心的小伙伴可能已经认出了福特的商标(Ford)，这说明我们都是同道中人，你一定也很喜欢汽车，对吧对吧？ :-)
